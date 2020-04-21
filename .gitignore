@@ -1,3 +1,3 @@
-Call of Duty.ipynb
 .ipynb_checkpoints/
-*.pyc
+__pycache__/
+Warzone DPS.xlsx
