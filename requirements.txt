@@ -30,3 +30,4 @@ Werkzeug
 pandas
 numpy
 ipywidgets
+xlrd
