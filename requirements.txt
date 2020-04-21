@@ -27,3 +27,6 @@ six
 traitlets
 urllib3
 Werkzeug
+pandas
+numpy
+ipywidgets
