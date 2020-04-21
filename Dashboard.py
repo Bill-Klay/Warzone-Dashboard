@@ -66,12 +66,12 @@ app.layout = html.Div([
         id='main_plot',
         figure={
             'data': [
-                {'x' : df['Guns'].iloc[0:14], 'y' : df['Damage'], 'type':'bar', 'name':'Assualt Rifles', 'opacity': '0.75'},
-                {'x' : df['Guns'].iloc[14:25], 'y' : df['Damage'], 'type':'bar', 'name':'SMG', 'opacity': '0.75'},
-                {'x' : df['Guns'].iloc[25:30], 'y' : df['Damage'], 'type':'bar', 'name':'LMG', 'opacity': '0.75'},
-                {'x' : df['Guns'].iloc[30:36], 'y' : df['Damage'], 'type':'bar', 'name':'Snipers', 'opacity': '0.75'},
-                {'x' : df['Guns'].iloc[36:41], 'y' : df['Damage'], 'type':'bar', 'name':'Pistols', 'opacity': '0.75'},
-                {'x' : df['Guns'].iloc[41:45], 'y' : df['Damage'], 'type':'bar', 'name':'Shotguns', 'opacity': '0.75'}
+                {'x' : df['Guns'].iloc[0:14 ], 'y' : df['Damage'].iloc[0:14 ], 'type':'bar', 'name':'Assualt Rifles', 'opacity': '0.75'},
+                {'x' : df['Guns'].iloc[14:25], 'y' : df['Damage'].iloc[14:25], 'type':'bar', 'name':'SMG', 'opacity': '0.75'},
+                {'x' : df['Guns'].iloc[25:30], 'y' : df['Damage'].iloc[25:30], 'type':'bar', 'name':'LMG', 'opacity': '0.75'},
+                {'x' : df['Guns'].iloc[30:36], 'y' : df['Damage'].iloc[30:36], 'type':'bar', 'name':'Snipers', 'opacity': '0.75'},
+                {'x' : df['Guns'].iloc[36:41], 'y' : df['Damage'].iloc[36:41], 'type':'bar', 'name':'Pistols', 'opacity': '0.75'},
+                {'x' : df['Guns'].iloc[41:45], 'y' : df['Damage'].iloc[41:45], 'type':'bar', 'name':'Shotguns', 'opacity': '0.75'}
             ],
             'layout' : go.Layout(
                 title = 'Guns Damage',
