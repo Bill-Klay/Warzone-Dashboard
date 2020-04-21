@@ -9,8 +9,8 @@ import pandas as pd
 
 # Launch the application:
 app = dash.Dash()
-
 app.title = "Modern Warfare"
+server = app.server
 
 # 0-14 AR
 # 14-25 SMG
